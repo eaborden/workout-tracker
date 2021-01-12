@@ -42,7 +42,7 @@ router.put('/api/workouts/:id', ({ body, params }, res) => {
     });
 
 router.post('api/workouts', (req, res) => {     
-  db.Workout.create({})
+  db.Workout.create(req.body)
   .then((dbWorkout) => {
     res.json(dbWorkout);
   })
