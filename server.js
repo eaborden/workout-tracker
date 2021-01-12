@@ -20,8 +20,16 @@ app.use(require("./routes/html-routes.js"));
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
-//console.log(body)
+mongoose.connect(
+  process.env.MONGODB_URI || "mongodb://localhost/workout", 
+  { useNewUrlParser: true, 
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  
+  }
+  );
+
 app.post("/submit", ({ body }, res) => {
   db.Workout.create(body)
     .then(dbUser => {
