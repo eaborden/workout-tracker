@@ -1,6 +1,6 @@
 # Nosql - Workout Tracker
 
-Create an application that allows a user to  view create and track daily workouts, log multiple exercises in a workout on a given day, and be able to track the name, type, weight, sets, reps, and duration of exercise. Cardio exercise should be able to track distance traveled.  Application is backed by a Mongo Database.
+Create an application that allows a user to view, create, and track daily workouts.  Log multiple exercises in a workout on a given day, and be able to track the name, type, weight, sets, reps, and duration of exercise. Cardio exercise should be able to track distance traveled.  Application is backed by a Mongo Database.
 
 ## GitHub Repository
 
@@ -16,10 +16,10 @@ https://github.com/eaborden/progressivebudget
 [Project Images](#project-images)
 
 ## Required Elements
-mongoDB
-mongodb Atlas
-node express
-nodeJS
+mongoDB\
+mongodb Atlas\
+node express\
+nodeJS\
 Heroku
 
 # Requirements
@@ -30,8 +30,7 @@ Upon entering the application the user will be presented with their latest worko
     * Resistance
     * Cardio
 3. When creating a workout that has cardio, the ability to track distance is available.
-
-After numerous workouts have been created the user can utilize a dashboard to aggregate the workouts.
+4. After numerous workouts have been created the user can utilize a dashboard to aggregate the workouts.
 
 ## Project Images
 
