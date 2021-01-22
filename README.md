@@ -8,7 +8,7 @@ https://github.com/eaborden/progressivebudget
 
 ## Deployed Application
 
-
+https://cardio-resistance-workouts.herokuapp.com/
 
 ## Table of Contents
 [Required Elements](#required-elements) \
