@@ -45,7 +45,7 @@ After numerous workouts have been created the user can utilize a dashboard to ag
 
 ### Cardio Exercise
 
-![Cardio Exercise](https://github.com/eaborden/workout-tracker/blob/master/public/images/cardio.PNG?raw=true)
+![Cardio Exercise](https://github.com/eaborden/workout-tracker/blob/master/public/images/Cardio.PNG?raw=true)
 
 ### Resistence Exercise
 
@@ -53,4 +53,4 @@ After numerous workouts have been created the user can utilize a dashboard to ag
 
 ### Dashboard
 
-![Dashboard](https://github.com/eaborden/progressivebudget/blob/master/public/images/dashboard.PNG?raw=true)
+![Dashboard](https://github.com/eaborden/workout-tracker/blob/master/public/images/dashboard.PNG?raw=true)
